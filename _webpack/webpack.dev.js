@@ -1,23 +1,7 @@
-const path = require('path');
+const merge = require('webpack-merge');
 
-module.exports = {
-  entry: {
-    app: './src/client/index.js',
-  },
-  output: {
-    path: path.resolve(__dirname, './_dist'),
-    filename: 'bundle.js',
-  },
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-        },
-      },
-    ],
-  },
+const CommonConfig = require('./webpack.common');
+
+module.exports = merge(CommonConfig, {
   mode: 'development',
-};
+});

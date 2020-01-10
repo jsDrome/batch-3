@@ -8,3 +8,7 @@
 - React entry point
 - Babel
 - Webpack
+    - Webpack dev
+    - Webpack prod
+    - Webpack common
+    - htmlWebpackPlugin

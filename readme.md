@@ -12,3 +12,6 @@
     - Webpack prod
     - Webpack common
     - htmlWebpackPlugin
+    - Webpack dev server
+- Firebase
+- CI/CD

@@ -13,5 +13,8 @@
     - Webpack common
     - htmlWebpackPlugin
     - Webpack dev server
+    - Clean Webpack Plugin
+    - Webpack bundle analyzer
+    - Webpack visualizer plugin
 - Firebase
 - CI/CD

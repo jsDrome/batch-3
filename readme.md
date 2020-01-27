@@ -18,3 +18,9 @@
     - Webpack visualizer plugin
 - Firebase
 - CI/CD
+- React components
+- Express
+- Firebase Functions
+- Unit Testing
+- Debugging
+- Test
